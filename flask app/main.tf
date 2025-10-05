@@ -59,7 +59,7 @@ resource "aws_instance" "web" {
               systemctl enable docker
               apt install -y python3-pip
               pip3 install flask psycopg2-binary celery
-              git clone https://github.com/fdjordjevic97/hands-on-devops-recipes.git /home/ubuntu/app
+              git clone https://github.com/fdjordjevic97/hand-on-devops-recipes.git /home/ubuntu/app
               cd /home/ubuntu/app/docker
               sudo apt install -y docker-compose 
               sudo apt install -y nginx
