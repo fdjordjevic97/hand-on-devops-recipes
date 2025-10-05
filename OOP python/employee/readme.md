@@ -2,7 +2,7 @@
 
 Just run
 
-# python main.py
+python main.py
 
 and you can play with the app. You can check the code as well on this link:
 
